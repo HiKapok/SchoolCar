@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_log">登陆</string>
+    <string name="app_name">智能校车管家</string>
+    <string name="server_page_name">服务器设置</string>
+    <string name="server_ip">服务器IP</string>
+    <string name="server_port">服务器端口号</string> 
+    <string name="server_set">保存服务器设置</string>
+    <string name="add_page_name">常用乘车路线管理</string>
+    <string name="my_ask_name">我的预约</string>
+    <string name="my_ask_ring_name">我的预约提醒</string>
+    <string name="require">预约</string>  
+    <string name="login">登陆管理</string>    
+    <string name="username">请输入您的查询密码</string>
+     <string name="id">请输入您的学号或工号</string>
+    <string name="cancel">取消</string>
+    <string name="common_addr">设为常用乘车路线</string>
+    <string name="search_Page">校车查询</string>
+    <string name="resultTitle">查询结果</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_help">帮助</string>
+    <string name="action_quit">退出程序</string>
+	<string name="teacher">我是老师</string>
+	<string name="student">我是学生</string>
+	<string name="setting">设置</string>
+	<string name="about">关于软件</string>
+	<string name="offtext">关闭</string>
+	<string name="ontext">打开</string>
+	<string name="day">请选择乘车时间</string>
+	<string name="reauire">查询所有符合条件的班次</string>
+	<string name="version">版本 V5.0</string>
+	<string name="startAdd">请选择起始校区</string>
+	<string name="call">2016年山东大学科技创新立项</string>
+    <string name="endAdd">请选择目的校区</string>
+    <string name="loginout">登陆或注销</string>
+    <string name="feedback">反馈给我们</string>
+    <string name="feedback_contact_hint">联系方式:邮箱/QQ/手机号</string>
+    <string name="feedback_content_hint">请输入您的反馈意见</string>
+    <string name="submit">提交</string>
+    <string name="director">我们可以在您想要乘坐的班次停止预约前一段时间提醒您进行预约，请设置该时间（1-9小时）</string>
+	<drawable name="MainColor">#FAFAFA</drawable>
+	<drawable name="MainBlackColor">#ddffdd</drawable>
+	<drawable name="MainColorTitle">#dddddd</drawable>
+	<drawable name="MainBlackColorTitle">#ccffcc</drawable>
+</resources>
+
+

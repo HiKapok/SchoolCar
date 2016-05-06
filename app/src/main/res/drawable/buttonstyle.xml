@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >   
+    <!--<item  android:state_pressed="true" >
+		<shape android:shape="rectangle" >　
+		       <gradient android:startColor="#004400" android:endColor="#009900"
+		         		android:angle="90" />&lt;!&ndash;设置颜色渐变&ndash;&gt;
+		　　
+		</shape>
+	</item>
+    <item  android:state_pressed="false" >
+        <shape  android:shape="rectangle" >　
+		        <gradient android:startColor="#007700" android:endColor="#66dd66"
+		         		android:angle="90" />&lt;!&ndash;设置颜色渐变&ndash;&gt;
+		　　
+		</shape>
+	</item>
+    <item android:state_focused="true" >
+        <shape android:shape="rectangle" >　
+		       <gradient android:startColor="#007700" android:endColor="#66dd66"
+		         		android:angle="90" />&lt;!&ndash;设置颜色渐变&ndash;&gt;
+		　　
+		</shape>
+	</item>
+	<item android:state_focused="false" >
+        <shape android:shape="rectangle" >　
+		       <gradient android:startColor="#007700" android:endColor="#66dd66"
+		         		android:angle="90" />&lt;!&ndash;设置颜色渐变&ndash;&gt;
+
+		</shape>
+	</item>-->
+	<item>
+	    <shape android:shape="rectangle" >　
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />
+		       <!--<gradient android:startColor="#007700" android:endColor="#66dd66"
+		         		android:angle="90" />&lt;!&ndash;设置颜色渐变&ndash;&gt;
+		　　       -->
+		</shape>   
+	</item>
+	     
+</selector>
+
+<!--<corners android:bottomRightRadius="10dp" android:bottomLeftRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />&lt;!&ndash;设置圆角&ndash;&gt;-->

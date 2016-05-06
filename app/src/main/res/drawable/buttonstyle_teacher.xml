@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item  android:state_pressed="true" >
+        <bitmap android:src="@drawable/teachers1"></bitmap>
+        <shape android:shape="rectangle" >　
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />
+            　　
+        </shape>
+    </item>
+    <item  android:state_pressed="false" >
+        <bitmap android:src="@drawable/teachers"></bitmap>
+        <shape  android:shape="rectangle" >　
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />　　
+        </shape>
+
+    </item>
+    <item android:state_focused="true" >
+        <bitmap android:src="@drawable/teachers1"></bitmap>
+        <shape android:shape="rectangle" >　
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />
+            　　
+        </shape>
+    </item>
+    <item android:state_focused="false" >
+        <bitmap android:src="@drawable/teachers"></bitmap>
+        <shape android:shape="rectangle" >　
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >　
+            <bitmap android:src="@drawable/teachers"></bitmap>
+            <gradient android:startColor="#00ffffff" android:endColor="#00ffffff"
+                android:angle="90" />
+            <!--<gradient android:startColor="#007700" android:endColor="#66dd66"
+                      android:angle="90" />
+     　　       -->
+        </shape>
+    </item>
+
+</selector>
+
+    <!--<corners android:bottomRightRadius="10dp" android:bottomLeftRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />&lt;!&ndash;设置圆角&ndash;&gt;-->

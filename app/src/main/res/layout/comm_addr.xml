@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical" >
+   
+	<LinearLayout      
+	    android:layout_height="match_parent"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"     
+	    android:layout_weight="15">
+		<!-- <ImageView 
+	    	android:layout_height="fill_parent"
+	    	android:layout_width="fill_parent"
+	    	android:src="@drawable/sdu"
+	    	android:scaleType="centerCrop"
+	    	
+		/>  -->   
+		<ImageView 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="fill_parent"
+	    	android:src="@drawable/sdu"
+	    	android:scaleType="fitXY"
+		/>  
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"     
+	    android:layout_weight="3">
+		<LinearLayout 
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:orientation="vertical"
+		    >
+		    
+	  	<TextView 
+	            android:layout_width="fill_parent"
+	            android:gravity="center"
+		        android:textSize="28sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+	            android:layout_height="wrap_content"></TextView>
+		<TextView android:id="@+id/startText"
+	            android:layout_width="fill_parent"
+	            android:gravity="center"
+		        android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+		        android:text="@string/startAdd"
+	            android:layout_height="wrap_content"></TextView>
+		
+	  	<Spinner android:id="@+id/startSpinner"	    
+	  	       android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+               android:layout_marginTop="5dp"
+            android:background="@drawable/abc_spinner_textfield_background_material"
+	           android:padding="2dip"
+	           android:layout_height="50dip"></Spinner>
+	  	<TextView 
+	  	    	android:gravity="center"    
+		        android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+		        android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"></TextView>
+	  	<TextView android:id="@+id/endText"
+	  	    	android:gravity="center"    
+		        android:textSize="20sp"
+		        android:text="@string/endAdd"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"></TextView>
+	  	<Spinner android:id="@+id/endSpinner"
+	  	       	android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+	           	android:padding="2dip"
+            android:background="@drawable/abc_spinner_textfield_background_material"
+                android:layout_marginBottom="5dp"
+	           	android:layout_height="50dip"
+            ></Spinner>
+	  
+	  	<Button 
+	  	    	android:id="@+id/setButton"
+	  	    	android:layout_marginTop="32dip"
+	  	    	android:layout_marginBottom="5dip"
+	  	    	android:paddingTop="5dip"
+	  	    	android:paddingBottom="5dip"
+	  	    	android:paddingLeft="15dip"
+	  	    	android:paddingRight="15dip"
+	  	       	android:layout_width="200dp"
+	  	       	android:text="@string/common_addr"
+	  	       	android:background="@drawable/new_button"
+	           	android:layout_height="50dip"></Button>
+	  	</LinearLayout>
+	  	
+  	</LinearLayout>
+</LinearLayout>

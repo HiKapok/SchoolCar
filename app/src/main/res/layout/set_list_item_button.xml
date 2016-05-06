@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="1dip"
+    android:paddingRight="5dip"
+    android:paddingLeft="1dip"
+    android:paddingBottom="1dip" >
+    <TextView
+        android:id="@+id/itemname_1"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="6dip"
+        android:paddingRight="3dip"
+        android:layout_margin="5dip"
+        android:gravity="center|right"
+        android:textSize="18sp"
+        android:textColor="@android:color/primary_text_light"
+        />
+    <ToggleButton
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/myswtich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:button="@drawable/swtichtype"
+        android:checked="false"
+        android:layout_margin="1dip"
+        android:paddingRight="10dip"
+        android:textOff="@string/offtext"
+        android:textOn="@string/ontext"
+        android:textSize="12sp"
+        android:textColor="@android:color/primary_text_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>
